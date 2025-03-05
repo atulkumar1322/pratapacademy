@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pratap Academy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg py-0">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center " href="#">
+        <img src="./images/index.jpg" alt="Bootstrap" width="90" height="90" class="rounded-circle">
+        <h3 class="text-uppercase text-info fw-bold hovertrans ms-2">Pratap <span class="text-warning">academy</span>
+        </h3>
+      </a>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-around" id="navbarNavDropdown">
+        <ul class="navbar-nav justify-content-between" style="width: 80%;">
+          <li class="nav-item ">
+            <a class="nav-link active text-uppercase text-info " aria-current="page" href="/ptpacm/index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-uppercase text-black " href="/ptpacm/about.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false"> About </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item text-uppercase " href="#">About Us</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-uppercase" href="#">Director Desk</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-uppercase text-black " href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false"> Courses </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item text-uppercase" href="#">Indian Army</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-uppercase" href="#">Indian Navy</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-uppercase" href="#">Indian Air Force</a>
+              </li>
+              <li>
+                <a class="dropdown-item text-uppercase " href="#">Punjab Police</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase text-black " aria-current="page" href="/ptpacm/result.html">results</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase text-black " aria-current="page" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase text-black " aria-current="page" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header bg-dark py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="h1ccstmrslt text-capitalize hovertrans ">results</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="resultsection bg-warning my-5 px-5">
+    <ul class="nav nav-pills py-4" id="pills-tab" role="tablist">
+      <li class="nav-item me-3" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+          type="button" role="tab" aria-controls="pills-home" aria-selected="true">indian army</button>
+      </li>
+      <li class="nav-item me-3" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+          type="button" role="tab" aria-controls="pills-profile" aria-selected="false">indian navy</button>
+      </li>
+      <li class="nav-item me-3" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+          type="button" role="tab" aria-controls="pills-contact" aria-selected="false">indian air force</button>
+      </li>
+      <li class="nav-item me-3" role="presentation">
+        <button class="nav-link" id="pills-punjabpolice-tab" data-bs-toggle="pill" data-bs-target="#pills-punjabpolice"
+          type="button" role="tab" aria-controls="pills-punjabpolice" aria-selected="false">punjab police</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-punjabgovt-tab" data-bs-toggle="pill" data-bs-target="#pills-punjabgovt"
+          type="button" role="tab" aria-controls="pills-punjabgovt" aria-selected="false">punjab police</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+        tabindex="0">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-punjabpolice" role="tabpanel" aria-labelledby="pills-punjabpolice-tab"
+        tabindex="0">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="pills-punjabgovt" role="tabpanel" aria-labelledby="pills-punjabgovt-tab"
+        tabindex="0">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/yogirana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Yoginder rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/firozkhan.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Firoz Khan</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/pankaj.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Pankaj rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card rounded-0">
+              <div class="imgcontainer cardht">
+                <img src="./images/amitrana.jpg" class="card-img-top  w-100 rounded-0" alt="...">
+              </div>
+              <div class="card-body py-1">
+                <h5 class="card-title text-center text-capitalize border-bottom border-bottom pb-1">Amit Rana</h5>
+                <p class="text-center text-capitalize mb-0">Indian army</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- footer start -->
+  <div class="footer bg-black">
+    <div class="row px-5 py-5">
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="footer1">
+          <h5 class="text-warning text-capitalize fw-semibold ">About Academy</h5>
+          <p>Established in the year 2017, Pratap Academy has been instrumental in numerous success stories.</p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <div class="footer2">
+          <h5 class="text-warning text-capitalize fw-semibold ">our links</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.w3schools.com" class="text-capitalize text-decoration-none">home</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com" class="text-capitalize text-decoration-none">about</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com" class="text-capitalize text-decoration-none">courses</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com" class="text-capitalize text-decoration-none">results</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com" class="text-capitalize text-decoration-none">gallery</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com" class="text-capitalize text-decoration-none">contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="footer3">
+          <!--  <h5 class="text-warning text-capitalize fw-semibold ">Address</h5> -->
+          <div class="row mb-3">
+            <div class="col-12 d-flex">
+              <div class="icon">
+                <i class="fa fa-map-marker text-black  icconbg fs-5" aria-hidden="true"></i>
+              </div>
+              <div class="location ms-2">
+                <p class="mb-0 fw-bold fs-5 text-capitalize text-warning">address:</p>
+                <span>Pratap academy opp. govt. ITI Lalru, Mohali</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="footer4">
+          <!-- <h5 class="text-warning text-capitalize fw-semibold ">contact us</h5> -->
+          <div class="row">
+            <div class="col-12 d-flex mb-3">
+              <div class="icon">
+                <i class="fa fa-envelope text-black  icconbg" aria-hidden="true"></i>
+              </div>
+              <div class="email ms-2">
+                <p class="mb-0 fw-bold text-capitalize text-white">e-mail us:</p>
+                <span>pratapacademy@gmail.com</span>
+              </div>
+
+            </div>
+            <div class="col-12 d-flex mb-3">
+              <div class="icon">
+                <i class="fa fa-phone text-black  icconbg fs-5 fw-bold" aria-hidden="true"></i>
+              </div>
+              <div class="contact ms-2">
+                <p class="mb-0 fw-bold text-capitalize text-white ">contact us:</p>
+                <span>7696506767</span>
+              </div>
+
+            </div>
+            <div class="col-12 d-flex ">
+              <div class="row">
+                <div class="col-3">
+                  <div class="icon">
+                    <i class="fa fa-facebook-f text-black icconbgsocl  " aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="icon">
+                    <i class="fa fa-twitter text-black icconbgsocl   " aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="icon">
+                    <i class="fa fa-instagram text-black icconbgsocl   " aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="col-3">
+                  <div class="icon">
+                    <i class="fa fa-linkedin text-black icconbgsocl  " aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      autoplay: true,
+      autoplayHoverPause: true,
+      loop: true,
+      margin: 10,
+      nav: false,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+
+</body>
+
+</html>
